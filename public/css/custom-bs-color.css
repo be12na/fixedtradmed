@@ -1,0 +1,105 @@
+.text-gray-100 {
+    --bs-text-opacity: 1;
+    color: rgba(248, 249, 250, var(--bs-text-opacity)) !important;
+}
+
+.text-gray-200 {
+    --bs-text-opacity: 1;
+    color: rgba(233, 236, 239, var(--bs-text-opacity)) !important;
+}
+
+.text-gray-300 {
+    --bs-text-opacity: 1;
+    color: rgba(222, 226, 230, var(--bs-text-opacity)) !important;
+}
+
+.text-gray-400 {
+    --bs-text-opacity: 1;
+    color: rgba(206, 212, 218, var(--bs-text-opacity)) !important;
+}
+
+.text-gray-500 {
+    --bs-text-opacity: 1;
+    color: rgba(173, 181, 189, var(--bs-text-opacity)) !important;
+}
+
+.text-gray-600 {
+    --bs-text-opacity: 1;
+    color: rgba(108, 117, 125, var(--bs-text-opacity)) !important;
+}
+
+.text-gray-700 {
+    --bs-text-opacity: 1;
+    color: rgba(73, 80, 87, var(--bs-text-opacity)) !important;
+}
+
+.text-gray-800 {
+    --bs-text-opacity: 1;
+    color: rgba(52, 58, 64, var(--bs-text-opacity)) !important;
+}
+
+.text-gray-900 {
+    --bs-text-opacity: 1;
+    color: rgba(33, 37, 41, var(--bs-text-opacity)) !important;
+}
+
+.bg-gray-100 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(248, 249, 250, var(--bs-bg-opacity)) !important;
+}
+
+.bg-gray-200 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(233, 236, 239, var(--bs-bg-opacity)) !important;
+}
+
+.bg-gray-300 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(222, 226, 230, var(--bs-bg-opacity)) !important;
+}
+
+.bg-gray-400 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(206, 212, 218, var(--bs-bg-opacity)) !important;
+}
+
+.bg-gray-500 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(173, 181, 189, var(--bs-bg-opacity)) !important;
+}
+
+.bg-gray-600 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(108, 117, 125, var(--bs-bg-opacity)) !important;
+}
+
+.bg-gray-700 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(73, 80, 87, var(--bs-bg-opacity)) !important;
+}
+
+.bg-gray-800 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(52, 58, 64, var(--bs-bg-opacity)) !important;
+}
+
+.bg-gray-900 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(33, 37, 41, var(--bs-bg-opacity)) !important;
+}
+
+.bg-brighten {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+}
+
+.bg-darken {
+    background-image: linear-gradient(0deg, rgba(33, 37, 41, 0.3), rgba(33, 37, 41, 0.3));
+}
+
+.bg-gradient-brighten {
+    background-image: linear-gradient(to bottom, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+}
+
+.bg-gradient-darken {
+    background-image: linear-gradient(to bottom, rgba(200, 200, 200, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+}

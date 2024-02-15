@@ -1,0 +1,137 @@
+.trees-container {
+    display: flex;
+    height: 100%;
+    max-height: 100%;
+    padding: 0;
+    background-color: #fff;
+    overflow: auto;
+}
+.trees {
+    display: block;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+}
+.trees ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.trees > ul {
+    padding-bottom: 1rem;
+}
+.trees ul > li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.trees ul > li > .box-node {
+    display: block;
+    padding: .25rem 0;
+    border: 1px solid var(--tree-node-theme-color, rgba(225, 225, 225, .8));
+    border-radius: 5px;
+    text-align: center;
+    cursor: default;
+    box-shadow: 0 0 0 1px var(--tree-node-theme-color, rgba(225, 225, 225, .5));
+    transition: box-shadow .25s ease;
+}
+.trees ul > li > a.box-node,
+.trees ul > li > .box-node a {
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.trees ul > li > .empty-node {
+    min-width: 40px;
+    min-height: 40px;
+}
+.trees ul > li > .box-node:hover,
+.trees ul > li > .box-node:focus,
+.trees ul > li > .box-node:active {
+    box-shadow: 0 0 0.175rem 0.2rem var(--tree-node-theme-color, rgba(225, 225, 225, .5));
+}
+.trees ul > li > .box-node > * {
+    text-align: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.trees ul > li > .box-node img,
+.trees ul > li > .box-node .node-image {
+    padding: 0;
+    height: 2rem;
+    width: auto;
+    border-radius: 50%;
+    border: 1px solid var(--tree-node-theme-color, rgba(225, 225, 225, .8));
+}
+.trees > ul ul {
+    margin: 40px 0 0;
+}
+.trees > ul ul > li:not(:first-child) {
+    margin-left: .5rem;
+}
+.trees > ul ul > li:not(:last-child) {
+    margin-right: .5rem;
+}
+.trees ul::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 0;
+    top: -40px;
+    left: 50%;
+    border-left: 1px solid var(--tree-node-theme-color, rgba(225, 225, 225, .8));
+    z-index: 1;
+}
+.trees > ul::before,
+.trees > ul > li::before,
+.trees > ul > li::after {
+    display: none !important;
+}
+.trees ul li::before,
+.trees ul li::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 20px;
+    top: -20px;
+    border-top: 1px solid var(--tree-node-theme-color, rgba(225, 225, 225, .8));
+    position: absolute;
+    z-index: 1;
+}
+.trees ul li::before {
+    left: auto;
+    right: 50%;
+    border-right: 1px solid var(--tree-node-theme-color, rgba(225, 225, 225, .8));
+}
+.trees ul li::after {
+    right: auto;
+    left: 50%;
+    border-left: 1px solid var(--tree-node-theme-color, rgba(225, 225, 225, .8));
+}
+.trees ul li:first-child::before,
+.trees ul li:last-child::after {
+    display: none;
+}
+.trees ul li:first-child:last-child::after {
+    display: block;
+    width: 0;
+}
+.trees ul li:not(:first-child)::before,
+.trees ul li:not(:last-child)::after {
+    width: calc(50% + .5rem);
+}
+.trees ul li:not(:first-child):not(:last-child)::before {
+    border-right: none;
+}
+.trees ul li:first-child:not(:last-child)::after {
+    border-top-left-radius: 5px;
+}
+.trees ul li:last-child:not(:first-child)::before {
+    border-top-right-radius: 5px;
+}

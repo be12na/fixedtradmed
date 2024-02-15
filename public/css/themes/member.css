@@ -1,0 +1,42 @@
+:root {
+    /* --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0)); */
+    --navbar-height: 56px;
+    --navbar-bg: var(--bs-light);
+    --content-bg: rgba(214, 245, 214, 0.1);
+    --sdbar-gutter-x: 0.5rem;
+    --sdbar-width: 300px;
+    --sdbar-bg: #0c4128;
+    /* --sdbar-brand-bg: #003300; */
+    --sdbar-sub-bg: rgba(var(--bs-success-rgb), 0.125);
+    --sdbar-bd-color: rgba(var(--bs-warning-rgb), 0.075);
+    --sdbar-toggler-color: var(--bs-gray-500);
+    --sdbar-toggler-hover-color: var(--bs-gray-300);
+    --sdbar-toggler-active-color: var(--bs-gray-100);
+    --sdbar-item-color: var(--bs-gray-300);
+    --sdbar-item-hover-color: var(--bs-gray-200);
+    --sdbar-item-active-color: var(--bs-gray-100);
+    --sdbar-item-hover-bg: rgba(230, 195, 0, 0.05);
+    --sdbar-item-active-bg: rgba(230, 195, 0, 0.25);
+    --sdbar-icon-width: 40px;
+    --sdbar-icon-color: rgba(var(--bs-warning-rgb), 0.7);
+    --sdbar-icon-hover-color: rgba(var(--bs-warning-rgb), 0.9);
+    --sdbar-icon-active-color: rgba(153, 255, 153, 0.75);
+    --sdbar-cevron-size: 6px;
+    --sdbar-cevron-color: rgba(204, 255, 204, 0.8);
+    --sdbar-cevron-active-color: rgba(204, 255, 204, 1);
+    --dd-menu-bg: var(--bs-gray-100);
+    --dd-menu-bd-color: rgba(var(--bs-dark-rgb), 0.75);
+    --dd-header-color: rgba(var(--bs-white-rgb), 0.75);
+    --dd-header-bg-color: #0c4128;
+    --dd-header-bg-image: var(--bs-gradient);
+    --dd-item-color: var(--bs-gray-700);
+    --dd-item-hover-color: var(--bs-gray-800);
+    --dd-item-active-color: var(--bs-gray-900);
+    --dd-item-hover-bg: rgba(var(--bs-dark-rgb), 0.05);
+    --dd-item-active-bg: rgba(var(--bs-primary-rgb), 0.1);
+    --dd-divider-color: rgba(var(--bs-dark-rgb), 0.1);
+    --modal-header-color: var(--bs-light);
+    --modal-header-bg: var(--bs-success);
+    --modal-header-bg-gradient: linear-gradient(to bottom, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+    --tree-node-theme-color: rgba(var(--bs-success-rgb), 0.125);
+}
